@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Libre Barcode 128 Text';
-    src: url('/LibreBarcode128Text-Polish.ttf') format('truetype');
+    src: url('/cyberpunk_2025/LibreBarcode128Text-Polish.ttf') format('truetype');
 }
 
 * {
@@ -19,7 +19,7 @@ body {
     height: 100dvh;
     overflow: clip;
     font-family: 'Sarpanch', monospace;
-    background: url('background.png');
+    background: url('/cyberpunk_2025/background.png');
     color: #00ff00;
 }
 
@@ -162,14 +162,14 @@ a {
     top: 0;
     left: 0;
     width: 100vw;
-    background-image: url('/frame/top_tile.png')
+    background-image: url('/cyberpunk_2025/frame/top_tile.png')
 }
 
 .decor#border-bottom {
     top: 100dvh;
     left: 0;
     width: 100vw;
-    background-image: url('/frame/bottom_tile.png');
+    background-image: url('/cyberpunk_2025/frame/bottom_tile.png');
     transform: translateY(-100%);
 }
 
@@ -177,7 +177,7 @@ a {
     top: 0;
     left: 0;
     height: 100vh;
-    background-image: url('/frame/side_tile.png');
+    background-image: url('/cyberpunk_2025/frame/side_tile.png');
     transform: scaleX(-1);
 }
 
@@ -185,7 +185,7 @@ a {
     top: 0;
     right: 75%;
     height: 100vh;
-    background-image: url('/frame/side_tile.png');
+    background-image: url('/cyberpunk_2025/frame/side_tile.png');
     transform: translateX(7px);
 }
 
@@ -193,7 +193,7 @@ a {
     top: 0;
     left: 25%;
     height: 100vh;
-    background-image: url('/frame/side_tile.png');
+    background-image: url('/cyberpunk_2025/frame/side_tile.png');
     transform: translateX(-7px) scaleX(-1);
 }
 
@@ -201,7 +201,7 @@ a {
     top: 0;
     right: 0;
     height: 100vh;
-    background-image: url('/frame/side_tile.png');
+    background-image: url('/cyberpunk_2025/frame/side_tile.png');
 }
 
 .decor#corner-index-top-left {

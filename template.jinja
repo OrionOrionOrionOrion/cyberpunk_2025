@@ -7,25 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="stylesheet" href="/cyberpunk_2025/style.css">
+    <link rel="icon" href="/cyberpunk_2025/icon.png" type="image/png">
 </head>
 <body>
-<div class="decor" id="border-top"><img src="/frame/top_tile.png" alt=""></div>
-<div class="decor" id="border-bottom"><img src="/frame/bottom_tile.png" alt=""></div>
-<div class="decor" id="border-index-left"><img src="/frame/side_tile.png" alt=""></div>
-<div class="decor" id="border-index-right"><img src="/frame/side_tile.png" alt=""></div>
-<div class="decor" id="border-content-left"><img src="/frame/side_tile.png" alt=""></div>
-<div class="decor" id="border-content-right"><img src="/frame/side_tile.png" alt=""></div>
-<img class="decor" id="corner-index-top-left" src="/frame/top_corner.png" alt="">
-<img class="decor" id="corner-index-top-right" src="/frame/top_corner.png" alt="">
-<img class="decor" id="corner-content-top-left" src="/frame/top_corner.png" alt="">
-<img class="decor" id="corner-content-top-right" src="/frame/top_corner.png" alt="">
-<img class="decor" id="bottom" src="/frame/bottom_middle.png" alt="">
+<div class="decor" id="border-top"><img src="/cyberpunk_2025/frame/top_tile.png" alt=""></div>
+<div class="decor" id="border-bottom"><img src="/cyberpunk_2025/frame/bottom_tile.png" alt=""></div>
+<div class="decor" id="border-index-left"><img src="/cyberpunk_2025/frame/side_tile.png" alt=""></div>
+<div class="decor" id="border-index-right"><img src="/cyberpunk_2025/frame/side_tile.png" alt=""></div>
+<div class="decor" id="border-content-left"><img src="/cyberpunk_2025/frame/side_tile.png" alt=""></div>
+<div class="decor" id="border-content-right"><img src="/cyberpunk_2025/frame/side_tile.png" alt=""></div>
+<img class="decor" id="corner-index-top-left" src="/cyberpunk_2025/frame/top_corner.png" alt="">
+<img class="decor" id="corner-index-top-right" src="/cyberpunk_2025/frame/top_corner.png" alt="">
+<img class="decor" id="corner-content-top-left" src="/cyberpunk_2025/frame/top_corner.png" alt="">
+<img class="decor" id="corner-content-top-right" src="/cyberpunk_2025/frame/top_corner.png" alt="">
+<img class="decor" id="bottom" src="/cyberpunk_2025/frame/bottom_middle.png" alt="">
 <div id="container">
     <div id="index-subpage">
         <div id="index">
-            <div class="index-row"><a class="row-text" href="/">Wprowadzenie</a></div>
+            <div class="index-row"><a class="row-text" href="/cyberpunk_2025/">Wprowadzenie</a></div>
             {%- for name in pages -%}
                 {%- set page_group = get_page_group(name) -%}
                 {%- if page_group != var.current_group -%}
@@ -42,7 +42,7 @@
                 <div class="index-row">
                     {%- for level in range(len(page_group)) -%}
                         <div class="tree-line"></div>{%- endfor -%}
-                    <a class="row-text" href="/{{ name }}">{{ get_page_title(name) }}</a>
+                    <a class="row-text" href="/cyberpunk_2025/{{ name }}">{{ get_page_title(name) }}</a>
                 </div>
             {%- endfor -%}
         </div>
@@ -54,21 +54,21 @@
                 {%- if dynamic_image -%}
                     <div id="top-image-section" class="narrow-only">
                         <div id="top-desc-image-container" style="width: {{ image_scale * 100 }}%;">
-                            <img src="/{{ image }}" alt="{{ title }}">
+                            <img src="/cyberpunk_2025/{{ image }}" alt="{{ title }}">
                         </div>
                     </div>
                     <div id="wrap-desc-image-container" style="height: {{ image_scale_side * 40 }}vh;">
-                        <img src="/{{ image }}" alt="{{ title }}">
+                        <img src="/cyberpunk_2025/{{ image }}" alt="{{ title }}">
                     </div>
                 {%- else -%}
                     <div id="top-image-section" class="narrow-only">
                         <div id="top-desc-image-container" style="width: {{ image_scale * 100 }}%;">
-                            <img src="/{{ image }}" alt="{{ title }}">
+                            <img src="/cyberpunk_2025/{{ image }}" alt="{{ title }}">
                         </div>
                     </div>
                     <div id="top-image-section" class="wide-only">
                         <div id="top-desc-image-container" style="width: {{ image_scale_wide_screen * 100 }}%;">
-                            <img src="/{{ image }}" alt="{{ title }}">
+                            <img src="/cyberpunk_2025/{{ image }}" alt="{{ title }}">
                         </div>
                     </div>
                 {%- endif -%}
