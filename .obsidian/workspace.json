@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cyberpunk 2025/01 Zasady.md",
+                "file": "cyberpunk 2025/06 Inspiracja.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cyberpunk 2025/01 Zasady.md",
+                "file": "cyberpunk 2025/06 Inspiracja.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cyberpunk 2025/01 Zasady.md",
+                "file": "cyberpunk 2025/06 Inspiracja.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cyberpunk 2025/01 Zasady.md"
+                "file": "cyberpunk 2025/06 Inspiracja.md"
               }
             }
           },
@@ -157,6 +157,18 @@
   "active": "565ead2cf01d0c00",
   "lastOpenFiles": [
     "index.html",
+    "cyberpunk 2025/05 przedmioty technika/08 Paralizator.html",
+    "cyberpunk 2025/05 przedmioty technika/07 Smok.html",
+    "cyberpunk 2025/05 przedmioty technika/06 Ciach-mat.html",
+    "cyberpunk 2025/05 przedmioty technika/05 Automasakra.html",
+    "cyberpunk 2025/05 przedmioty technika/04 Kamerakonterlaser.html",
+    "cyberpunk 2025/05 przedmioty technika/03 Wykrywacz kłamstw.html",
+    "cyberpunk 2025/05 przedmioty technika/02 Grosik.html",
+    "cyberpunk 2025/05 przedmioty technika/01 Inteligentny chwytak.html",
+    "cyberpunk 2025/04 cyberwszczepy/09 oczy/04 front multioptyczny.html",
+    "cyberpunk 2025/04 cyberwszczepy/09 oczy/03 awokado.html",
+    "cyberpunk 2025/01 Zasady.md",
+    "cyberpunk 2025/06 Inspiracja.md",
     "tajne/fabuła.md",
     "cyberpunk 2025/04 cyberwszczepy/07 dłonie/03 cyberdłoń scyzorykowa.md",
     "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_15.png",
@@ -170,16 +182,6 @@
     "NCA_Public/Animals/animals_guy__12.png",
     "NCA_Public/Animals/animals_guy__16.png",
     "NCA_Public/Tyger_Claws/Untitled.md",
-    "cyberpunk 2025/06 Inspiracja.md",
-    "tajne/muzyka/the ultimate oldschool hardcore gabber mix.mp3",
-    "cyberpunk 2025/05 przedmioty technika/08 Paralizator.html",
-    "cyberpunk 2025/05 przedmioty technika/07 Smok.html",
-    "cyberpunk 2025/05 przedmioty technika/06 Ciach-mat.html",
-    "cyberpunk 2025/05 przedmioty technika/05 Automasakra.html",
-    "cyberpunk 2025/05 przedmioty technika/04 Kamerakonterlaser.html",
-    "cyberpunk 2025/05 przedmioty technika/03 Wykrywacz kłamstw.html",
-    "cyberpunk 2025/05 przedmioty technika/02 Grosik.html",
-    "cyberpunk 2025/05 przedmioty technika/01 Inteligentny chwytak.html",
     "cyberpunk 2025/03 Cyberwszczepy.md",
     "cyberpunk 2025/intro.md",
     "cyberpunk 2025/05 przedmioty technika/07 Smok.md",
@@ -199,7 +201,6 @@
     "cyberpunk 2025/04 cyberwszczepy/08 ręce/02 ręce goryla.md",
     "cyberpunk 2025/04 cyberwszczepy/08 ręce/01 ostrza modliszkowe.md",
     "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/03 układ Meichenbauma.md",
-    "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/02 neurokonsola.md",
-    "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/01 Sandevistan.md"
+    "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/02 neurokonsola.md"
   ]
 }
