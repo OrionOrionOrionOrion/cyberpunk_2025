@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "62602d6244bd204e",
+            "id": "565ead2cf01d0c00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tajne/fabuła.md",
+                "file": "cyberpunk 2025/01 Zasady.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "565ead2cf01d0c00",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cyberpunk 2025/01 Zasady.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cyberpunk 2025/01 Zasady.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cyberpunk 2025/01 Zasady.md"
+              }
             }
           },
           {
@@ -161,6 +156,7 @@
   },
   "active": "565ead2cf01d0c00",
   "lastOpenFiles": [
+    "index.html",
     "tajne/fabuła.md",
     "cyberpunk 2025/04 cyberwszczepy/07 dłonie/03 cyberdłoń scyzorykowa.md",
     "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_15.png",
@@ -176,7 +172,6 @@
     "NCA_Public/Tyger_Claws/Untitled.md",
     "cyberpunk 2025/06 Inspiracja.md",
     "tajne/muzyka/the ultimate oldschool hardcore gabber mix.mp3",
-    "index.html",
     "cyberpunk 2025/05 przedmioty technika/08 Paralizator.html",
     "cyberpunk 2025/05 przedmioty technika/07 Smok.html",
     "cyberpunk 2025/05 przedmioty technika/06 Ciach-mat.html",

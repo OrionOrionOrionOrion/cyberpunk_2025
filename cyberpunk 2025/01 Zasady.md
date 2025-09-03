@@ -9,7 +9,7 @@ skala ob. z boku: 1.5
 *Cyberpunk ma tylko trzy zasady: styl ponad treścią, poza jest wszystkim, żyj na krawędzi.*
 
 # Główne
-*W sumie po prostu system <a href="rollforshoes.com">Roll for Shoes</a>.*
+*W sumie po prostu system <a href="https://rollforshoes.com">Roll for Shoes</a>.*
 
 1. Na początku masz umiejętność *Cokolwiek 1* i kilka innych wynikających z postaci.
 2. Mówisz, co chcesz zrobić i rzucasz tyle d6, ile masz w odpowiedniej umiejętności. Mistrz gry rzuca liczbą d6 odpowiadającą trudności czynności.
