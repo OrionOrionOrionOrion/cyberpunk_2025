@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'Libre Barcode 128 Text';
+    src: url('/LibreBarcode128Text-Polish.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100dvh;
+    overflow: clip;
+    font-family: 'Sarpanch', monospace;
+    background: url('background.png');
+    color: #00ff00;
+}
+
+a {
+    color: #00ff00;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    height: 100dvh;
+    overflow: clip;
+}
+
+#index-subpage {
+    flex: 1;
+    height: 100dvh;
+    overflow-y: scroll;
+    background-color: black;
+}
+
+#index {
+    margin: 2em;
+}
+
+#index a {
+    display: block;
+}
+
+.index-row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.index-row .tree-line {
+    flex: 0 0 auto;
+    height: auto;
+    width: 16px;
+    border-left: 1px solid #00ff00;
+}
+
+.index-row .row-text {
+    margin: 0.33em 0;
+}
+
+#content-subpage {
+    flex: 3;
+    flex-direction: row;
+    overflow-y: scroll;
+}
+
+#content {
+    margin: 2em;
+    line-height: 1.75em;
+    text-align: justify;
+}
+
+#title {
+    margin: 0;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: 'Libre Barcode 128 Text', monospace;
+    font-size: 4.5em;
+}
+
+.initial {
+    font-size: 200%;
+}
+
+#content table {
+    margin: 0.5em;
+    border-collapse: collapse;
+    border: 3px double #00ff00;
+}
+
+#content table th, #content table td {
+    padding: 0.25em;
+    border: 1px solid #00ff00;
+}
+
+#top-image-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#top-image-section.wide-only {
+    display: none;
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+    #top-image-section.narrow-only {
+        display: none;
+    }
+
+    #top-image-section.wide-only {
+        display: flex;
+    }
+}
+
+#wrap-desc-image-container {
+    display: none;
+}
+
+@media screen and (min-aspect-ratio: 1/1) {
+    #wrap-desc-image-container {
+        display: inline-block;
+        float: right;
+        margin-top: 0.5cm;
+        margin-left: 1ch;
+        margin-bottom: 0.5ch;
+    }
+}
+
+#top-desc-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#wrap-desc-image-container img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.decor {
+    position: fixed;
+}
+
+.decor, .decor * {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.decor#border-top {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-image: url('/frame/top_tile.png')
+}
+
+.decor#border-bottom {
+    top: 100dvh;
+    left: 0;
+    width: 100vw;
+    background-image: url('/frame/bottom_tile.png');
+    transform: translateY(-100%);
+}
+
+.decor#border-index-left {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-image: url('/frame/side_tile.png');
+    transform: scaleX(-1);
+}
+
+.decor#border-index-right {
+    top: 0;
+    right: 75%;
+    height: 100vh;
+    background-image: url('/frame/side_tile.png');
+    transform: translateX(7px);
+}
+
+.decor#border-content-left {
+    top: 0;
+    left: 25%;
+    height: 100vh;
+    background-image: url('/frame/side_tile.png');
+    transform: translateX(-7px) scaleX(-1);
+}
+
+.decor#border-content-right {
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-image: url('/frame/side_tile.png');
+}
+
+.decor#corner-index-top-left {
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.decor#corner-index-top-right {
+    top: 0;
+    right: 75%;
+    transform: translateX(7px);
+}
+
+.decor#corner-content-top-left {
+    top: 0;
+    left: 25%;
+    transform: translateX(-7px) scaleX(-1);
+}
+
+.decor#corner-content-top-right {
+    top: 0;
+    right: 0;
+}
+
+.decor#bottom {
+    top: 100dvh;
+    right: 27.5%;
+    transform: translate(-50%, -100%);
+}

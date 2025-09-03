@@ -1,0 +1,105 @@
+{% set var = namespace(current_group=[]) %}
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyberpunk 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Offside&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/icon.png" type="image/png">
+</head>
+<body>
+<div class="decor" id="border-top"><img src="/frame/top_tile.png" alt=""></div>
+<div class="decor" id="border-bottom"><img src="/frame/bottom_tile.png" alt=""></div>
+<div class="decor" id="border-index-left"><img src="/frame/side_tile.png" alt=""></div>
+<div class="decor" id="border-index-right"><img src="/frame/side_tile.png" alt=""></div>
+<div class="decor" id="border-content-left"><img src="/frame/side_tile.png" alt=""></div>
+<div class="decor" id="border-content-right"><img src="/frame/side_tile.png" alt=""></div>
+<img class="decor" id="corner-index-top-left" src="/frame/top_corner.png" alt="">
+<img class="decor" id="corner-index-top-right" src="/frame/top_corner.png" alt="">
+<img class="decor" id="corner-content-top-left" src="/frame/top_corner.png" alt="">
+<img class="decor" id="corner-content-top-right" src="/frame/top_corner.png" alt="">
+<img class="decor" id="bottom" src="/frame/bottom_middle.png" alt="">
+<div id="container">
+    <div id="index-subpage">
+        <div id="index">
+            <div class="index-row"><a class="row-text" href="/">Wprowadzenie</a></div>
+            {%- for name in pages -%}
+                {%- set page_group = get_page_group(name) -%}
+                {%- if page_group != var.current_group -%}
+                    {% for group in group_diff(var.current_group, page_group) %}
+                        <div class="index-row">
+                            {%- for level in range(len(group) - 1) -%}
+                                <div class="tree-line"></div>
+                            {%- endfor -%}
+                            <div class="row-text">{{ group[-1] }}</div>
+                        </div>
+                    {% endfor %}
+                    {%- set var.current_group = page_group -%}
+                {%- endif -%}
+                <div class="index-row">
+                    {%- for level in range(len(page_group)) -%}
+                        <div class="tree-line"></div>{%- endfor -%}
+                    <a class="row-text" href="/{{ name }}">{{ get_page_title(name) }}</a>
+                </div>
+            {%- endfor -%}
+        </div>
+    </div>
+    <div id="content-subpage">
+        <div id="content">
+            <p id="title">{{ title.upper() }}</p>
+            {%- if image -%}
+                {%- if dynamic_image -%}
+                    <div id="top-image-section" class="narrow-only">
+                        <div id="top-desc-image-container" style="width: {{ image_scale * 100 }}%;">
+                            <img src="/{{ image }}" alt="{{ title }}">
+                        </div>
+                    </div>
+                    <div id="wrap-desc-image-container" style="height: {{ image_scale_side * 40 }}vh;">
+                        <img src="/{{ image }}" alt="{{ title }}">
+                    </div>
+                {%- else -%}
+                    <div id="top-image-section" class="narrow-only">
+                        <div id="top-desc-image-container" style="width: {{ image_scale * 100 }}%;">
+                            <img src="/{{ image }}" alt="{{ title }}">
+                        </div>
+                    </div>
+                    <div id="top-image-section" class="wide-only">
+                        <div id="top-desc-image-container" style="width: {{ image_scale_wide_screen * 100 }}%;">
+                            <img src="/{{ image }}" alt="{{ title }}">
+                        </div>
+                    </div>
+                {%- endif -%}
+            {%- endif -%}
+            {{ content }}
+        </div>
+    </div>
+</div>
+<script>
+    {% if initial -%}
+        const contentChildren = document.querySelectorAll('#content > *');
+        const imagePresent = contentChildren[1].id === 'desc-image-container';
+        const firstTextElement = imagePresent ? contentChildren[2] : contentChildren[1];
+        if (firstTextElement.innerHTML[0] !== '<')
+            firstTextElement.innerHTML = `<span class="initial">${firstTextElement.innerHTML.substring(0, 1)}</span>${firstTextElement.innerHTML.substring(1)}`;
+    {%- endif %}
+    const alphabet = 'AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUWXYZŹŻ';
+    const title = document.getElementById('title');
+    const length = title.innerHTML.length;
+    const titleText = title.innerHTML;
+    for (let it = -8; it <= length; ++it) {
+        setTimeout(() => {
+            const n = Math.max(0, it);
+            let newTitleText = '';
+            for (let i = 0; i < n; ++i)
+                newTitleText += titleText[i];
+            for (let i = n; i < length; ++i)
+                newTitleText += titleText[i] === ' ' ? ' ' : alphabet[Math.floor(Math.random() * alphabet.length)];
+            title.innerHTML = newTitleText;
+        }, (it + 8) * 50);
+    }
+</script>
+</body>
+</html>

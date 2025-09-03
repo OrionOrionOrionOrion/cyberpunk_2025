@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "86e5a42d1ec988bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "1321d5e927a36a58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7792379ecfe63ff4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fabuła.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2da0ed8ceed3474d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zasady/sieciowanie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecbf34c674f7de75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "przeszłości/pies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f73105632f136a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "58b56f6e4a2dc96f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69fa0a739f288191",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3aaa210e7c1c2ff1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43d181988fd82f78",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "255d0ac5f03404e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "89280435273527e8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5d1bbafaaafe36a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "zasady/sieciowanie.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7cfa162ad9dd205f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "zasady/sieciowanie.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7936a15a8ae12c91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "82e840c50651268c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "zasady/sieciowanie.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2da0ed8ceed3474d",
+  "lastOpenFiles": [
+    "cyberpunk 2025.zip",
+    "zasady/walka.md",
+    "zasady/sieciowanie.md",
+    "zasady/podstawowe akcje.md",
+    "cyberwszczepy/krążenie/rezerwuar adrenaliny.md",
+    "cyberwszczepy/krążenie/nanomaszyny immunologiczne.md",
+    "cyberwszczepy/krążenie/biomonitoryzowany dozownik środków pourazowych.md",
+    "cyberwszczepy/kości/stawy 360.md",
+    "cyberwszczepy/kości/resory kostne.md",
+    "cyberwszczepy/kości/obudowa kości skokowej.md",
+    "cyberwszczepy/dłonie/mikrogenerator.md",
+    "cyberwszczepy/dłonie/koprocesor balistyczny.md",
+    "cyberwszczepy/dłonie/cyberdłoń scyzorykowa.md",
+    "przeszłości/pies.md",
+    "desktop.ini",
+    "broń/strzelba.md",
+    "broń/pistolet maszynowy.md",
+    "broń/pistolet.md",
+    "broń/karabin szturmowy.md",
+    "fabuła.md",
+    "cyberwszczepy/ręce/ostrza modliszkowe.md",
+    "cyberwszczepy/ręce/monostruna.md",
+    "cyberwszczepy/ręce/ręce goryla.md",
+    "cyberwszczepy/nerwy/korektor refleksu.md",
+    "cyberwszczepy/trzewia/moduł nerkowy ksenoendokrężenia.md",
+    "cyberwszczepy/trzewia/Untitled.md",
+    "cyberwszczepy/skóra/pancerz podskórny.md",
+    "cyberwszczepy/trzewia",
+    "zasady",
+    "cyberwszczepy/oko",
+    "cyberwszczepy/dłonie",
+    "cyberwszczepy/skóra",
+    "cyberwszczepy/system operacyjny",
+    "cyberwszczepy/nerwy",
+    "cyberwszczepy/krążenie",
+    "cyberwszczepy/kości"
+  ]
+}

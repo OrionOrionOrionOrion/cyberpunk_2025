@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "eafa25eb4f94532d",
+    "type": "split",
+    "children": [
+      {
+        "id": "18da79db0c3c53cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62602d6244bd204e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tajne/fabuła.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "565ead2cf01d0c00",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d1c107195d1847cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "72865de4b598c807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6820b924903db71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c47cb0cf330bb0aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9251fd7d1108afcb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0005c4007ecf15f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2963b7187bd1dc74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdf9da93487fcd0c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6cb7a253ba0fc34b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f1498949ee23e949",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "29f8fae7ab5a84ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "395fae1d284ee9b1",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "565ead2cf01d0c00",
+  "lastOpenFiles": [
+    "tajne/fabuła.md",
+    "cyberpunk 2025/04 cyberwszczepy/07 dłonie/03 cyberdłoń scyzorykowa.md",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_15.png",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_16.png",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_18.png",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_girl_7.png",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_6.png",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_11.png",
+    "NCA_Public/Raffen_Wraiths/raffen_wraiths_guy_5.png",
+    "NCA_Public/Animals/animals_guy__6.png",
+    "NCA_Public/Animals/animals_guy__12.png",
+    "NCA_Public/Animals/animals_guy__16.png",
+    "NCA_Public/Tyger_Claws/Untitled.md",
+    "cyberpunk 2025/06 Inspiracja.md",
+    "tajne/muzyka/the ultimate oldschool hardcore gabber mix.mp3",
+    "index.html",
+    "cyberpunk 2025/05 przedmioty technika/08 Paralizator.html",
+    "cyberpunk 2025/05 przedmioty technika/07 Smok.html",
+    "cyberpunk 2025/05 przedmioty technika/06 Ciach-mat.html",
+    "cyberpunk 2025/05 przedmioty technika/05 Automasakra.html",
+    "cyberpunk 2025/05 przedmioty technika/04 Kamerakonterlaser.html",
+    "cyberpunk 2025/05 przedmioty technika/03 Wykrywacz kłamstw.html",
+    "cyberpunk 2025/05 przedmioty technika/02 Grosik.html",
+    "cyberpunk 2025/05 przedmioty technika/01 Inteligentny chwytak.html",
+    "cyberpunk 2025/03 Cyberwszczepy.md",
+    "cyberpunk 2025/intro.md",
+    "cyberpunk 2025/05 przedmioty technika/07 Smok.md",
+    "cyberpunk 2025/05 przedmioty technika/06 Ciach-mat.md",
+    "cyberpunk 2025/05 przedmioty technika/05 Automasakra.md",
+    "cyberpunk 2025/05 przedmioty technika/04 Kamerakonterlaser.md",
+    "cyberpunk 2025/05 przedmioty technika/03 Wykrywacz kłamstw.md",
+    "cyberpunk 2025/05 przedmioty technika/02 Grosik.md",
+    "cyberpunk 2025/05 przedmioty technika/01 Inteligentny chwytak.md",
+    "cyberpunk 2025/04 cyberwszczepy/09 oczy/04 front multioptyczny.md",
+    "cyberpunk 2025/04 cyberwszczepy/09 oczy/03 awokado.md",
+    "cyberpunk 2025/04 cyberwszczepy/09 oczy/02 monowizor.md",
+    "cyberpunk 2025/04 cyberwszczepy/09 oczy/01 balistyszek.md",
+    "cyberpunk 2025/04 cyberwszczepy/08 ręce/05 igła ksenotranskrążenia.md",
+    "cyberpunk 2025/04 cyberwszczepy/08 ręce/04 monostruna.md",
+    "cyberpunk 2025/04 cyberwszczepy/08 ręce/03 wyrzutnia rakiet.md",
+    "cyberpunk 2025/04 cyberwszczepy/08 ręce/02 ręce goryla.md",
+    "cyberpunk 2025/04 cyberwszczepy/08 ręce/01 ostrza modliszkowe.md",
+    "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/03 układ Meichenbauma.md",
+    "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/02 neurokonsola.md",
+    "cyberpunk 2025/04 cyberwszczepy/06 system operacyjny/01 Sandevistan.md"
+  ]
+}
